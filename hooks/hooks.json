@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "[ -n \"$CLAUDE_ENV_FILE\" ] && jq -r '\"CLAUDE_SESSION_ID=\" + .session_id, \"CLAUDE_CONVO_SLUG=\" + (.cwd | gsub(\"[/.]\";\"-\"))' >> \"$CLAUDE_ENV_FILE\""
+          }
+        ]
+      }
+    ]
+  }
+}

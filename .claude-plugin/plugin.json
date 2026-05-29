@@ -1,0 +1,6 @@
+{
+  "name": "convo",
+  "description": "Exposes the current Claude Code session id so links to the conversation can be generated.",
+  "version": "1.0.0",
+  "author": { "name": "jfim" }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "convo",
+  "owner": { "name": "jfim" },
+  "plugins": [
+    {
+      "name": "convo",
+      "source": "./",
+      "description": "Exposes the current Claude Code session id so links to the conversation can be generated."
+    }
+  ]
+}
