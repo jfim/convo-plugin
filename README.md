@@ -1,6 +1,6 @@
 # Claude Code convo plugin
 
-Allow Claude to link to existing conversations, which are opened by [convo](/jfim/convo) through the `convo://` protocol.
+Allow Claude to link to existing conversations, which are opened by [convo](https://github.com/jfim/convo) through the `convo://` protocol.
 
 ## Install
 
